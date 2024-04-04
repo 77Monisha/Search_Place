@@ -1,0 +1,47 @@
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.heading {
+  background-color: #f0f0f0;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #42cfca;
+}
+
+.not-found {
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
+
+.country_flag {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.country_img {
+  width: 36px;
+  height: 36px;
+  padding-left: 8px;
+}
+
+.spinner_container {
+  display: grid;
+  place-items: center;
+}
+
+.spinner {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
